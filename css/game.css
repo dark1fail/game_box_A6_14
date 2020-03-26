@@ -1,0 +1,35 @@
+body
+{
+	background: url(../images/background.jpg) no-repeat;
+	background-color: #675180;
+}
+
+h1
+{
+	font-family: 'Caveat', cursive;
+	font-size: 70px;
+	text-align: center;
+	-webkit-text-stroke-width: 1.3px;
+  	-webkit-text-stroke-color: #ffffff;
+}
+
+.game-field 
+{
+  background-color: rgba(0,0,0,0.5);
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target 
+{
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss 
+{
+  background-color: red;
+}
